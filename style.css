@@ -63,8 +63,8 @@ body{
     padding-left: 6px;
     padding-right:23px ;
     border-right: #FFFFFF solid 0.3px;
-    padding-bottom: 13px;
     border-width: 0.87px;
+    padding-bottom: 0px;
 }
 .header-links a{
     margin-right: 24px;
@@ -106,6 +106,10 @@ body{
     font-family: "Bebas Neue", sans-serif;
     height: 73px;
     padding-bottom: 30px;
+}
+.res{
+    display: flex;
+    align-items: baseline;
 }
 .Experience{
     width: fit-content;
