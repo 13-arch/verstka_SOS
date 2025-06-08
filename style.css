@@ -30,6 +30,7 @@ body{
     justify-content: left;
     border-left: 121px;
     width: 55px;
+    padding-right: 146px;
 }
 .header-links{
     font-weight: bold;
@@ -54,6 +55,7 @@ body{
     font-size: 12px;
     display: flex;
     justify-content: space-between;
+
 }
 .imog{
     max-width: 13px;
@@ -71,7 +73,6 @@ body{
     text-decoration: none;
     align-items: center;
     border-left:147px; 
-
 }
 .header-links{
     align-items: center;
@@ -82,10 +83,10 @@ body{
     display: flex;
     padding-left: 0;
     justify-content: space-between;
+    padding-left: 24px;
 }
 .heads{
     display: flex;
-    justify-content: space-between;
     padding: 44px;
 }
 .SURVIVE{
@@ -101,6 +102,10 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", sans-serif;
+    height: 73px;
+    padding-bottom: 30px;
 }
 .Experience{
     width: fit-content;
@@ -111,6 +116,7 @@ body{
     margin-top: 0;
     padding-top: 0;
     border-top: 0;
+    padding-bottom: 30px;
 }
 .centr{
     color: #FFFFFF;
@@ -123,13 +129,15 @@ body{
 }
 .buttoN{
     padding: 0;
-    width: fit-content;
+    width: 260px;
     margin: 0 auto;
     background-color:#F3AF34 ;
     color:black;
     font-weight: bold;
     border: none;
-    padding:17px 0 17px 17px ;
+    padding:0;
+    height: 60px;
+    Border-radius:5px;
 }
 .scroll_button{
     background: none;
@@ -847,8 +855,8 @@ html {
 }
 
 .footer__logo {
-    width: 55px;
-    height: 55px;
+    width: 90px;
+    
 }
 
 .nav--footer {
