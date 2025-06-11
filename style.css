@@ -815,45 +815,82 @@ body {
     letter-spacing: 0px;
     line-height: 22px;
 }
-   :root {
-      --label-color:    #A5A5A5;  /* тёмно-синий графит */
-      --input-color:   #FFB548;  /* голубой акцент */
-      --bg-color:      #293133;  /* белый фон */
-    }
-    .email-field {
-      display: inline-flex;
-      flex-direction: column;      /* Вертикальный стек */
-      background: #293133;
-      border-radius: 4px;
-      padding: 12px 16px;
-      max-width: 480px;
-      font-family: Arial, sans-serif;
-      gap: 4px;                    /* Расстояние между строками */
-    }
 
-    .email-field__label {
-      display: block;
-      color: #A5A5A5;
-      font-size: 14px;
-      line-height: 1.2;
-      padding-right: 132px;
-    }
+.email-field {
+  display: inline-flex;
+  flex-direction: column; 
+  background: #293133;
+  border-radius: 4px;
+  padding: 12px 16px;
+  max-width: 480px;
+  font-family: Arial, sans-serif;
+  gap: 4px;                   
+}
 
-    .email-field__input {
-      display: block;
-      width: 100%;
-      border: none;
-      outline: none;
-      background: none;
-      color: #FFB548;
-      font-size: 14px;
-      line-height: 1.2;
-      text-align: left;
-      padding-right: 139px;
-    }
-    .ema{
-        display: flex;
-        width: 642px;
-        padding-left: 69px;
-    }
+.email-field__label {
+  display: block;
+  color: #A5A5A5;
+  font-size: 14px;
+  line-height: 1.2;
+  padding-right: 132px;
+}
 
+.email-field__input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  color: #FFB548;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: left;
+  padding-right: 139px;
+}
+.ema{
+    display: flex;
+    width: 642px;
+    padding-left: 69px;
+}
+.footer-links a{
+    margin-right: 24px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-items: center;
+    border-left:147px; 
+}
+.footer-links{
+    align-items: center;
+    border-left:147px; 
+    padding: 75px 0 40px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.foot-obj{
+  display: flex;
+}
+.footer_logo{
+  display: flex;
+  justify-content: left;
+  border-left: 121px;
+  width: 90px;
+  padding-right: 146px;  
+  padding: 0 137px 30px 120px;
+}
+.facebok{
+  width: 9px; 
+  height: 18px;
+  padding-right:59px ;
+}
+.footer-icons{
+  max-width: 241px;
+  display: flex;
+  padding: 77px 132px 46px 86px;
+}
+.foot{
+  display: flex;
+}
+.twit{
+  padding: 0 55px 0 55px;
+}
