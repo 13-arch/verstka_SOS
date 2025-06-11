@@ -897,3 +897,13 @@ body {
 .twit{
   padding: 0 55px 0 55px;
 }
+.under-left{
+  padding: 22px 416px 47px 111px;
+  color: #888;
+}
+.under-right{
+  padding: 22px 0 45px 0;
+}
+.under{
+  display: flex;
+}
