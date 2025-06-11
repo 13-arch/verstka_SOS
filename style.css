@@ -869,6 +869,8 @@ body {
 }
 .foot-obj{
   display: flex;
+  border-bottom: #FFFFFF solid 0.1px;
+
 }
 .footer_logo{
   display: flex;
@@ -887,6 +889,7 @@ body {
   max-width: 241px;
   display: flex;
   padding: 77px 132px 46px 86px;
+  border-bottom: #FFFFFF solid 0.1px;
 }
 .foot{
   display: flex;
